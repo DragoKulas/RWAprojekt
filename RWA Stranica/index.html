@@ -1,0 +1,318 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Prijava i registracija</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lugara</title>
+</head>
+<body>
+    <div id="container">          
+        <div id="header">
+          <h1>Dobrodošli u Lugaru</h1>
+        </div>
+        <div id="forms">
+          <form id="loginForm">
+            <h2>Prijava</h2>
+            <div>
+              <label for="loginUsername">Korisničko ime:</label>
+              <input type="text" id="loginUsername" required>
+            </div>
+            <div>
+              <label for="loginPassword">Lozinka:</label>
+              <input type="password" id="loginPassword" required>
+            </div>
+            <div>
+              <button type="submit">Prijavi se</button>
+            </div>
+          </form>
+          <form id="registerForm">
+            <h2>Registracija</h2>
+            <div>
+              <label for="registerUsername">Korisničko ime:</label>
+              <input type="text" id="registerUsername" required>
+            </div>
+            <div>
+              <label for="registerEmail">Email:</label>
+              <input type="email" id="registerEmail" required>
+            </div>
+            <div>
+              <label for="registerPassword">Lozinka:</label>
+              <input type="password" id="registerPassword" required>
+            </div>
+            <div>
+              <label for="confirmPassword">Potvrdi lozinku:</label>
+              <input type="password" id="confirmPassword" required>
+            </div>
+            <div>
+              <button type="submit">Registriraj se</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+</body>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/logo.png" width="105" height="105" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">    
+                    <input type="text" placeholder="Probajte: Marlboro Gold" class="searchInput">
+                    <img src="./img/search.jpg" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="blagdanskoSnizenje">Blagdansko sniženje! Do 30% popusta!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">Marlboro Gold</h3>
+            <h3 class="menuItem">Marlboro Red</h3>
+            <h3 class="menuItem">IQOS HEETS</h3>
+            <h3 class="menuItem">BIC J5</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/Marlboro Gold.png" width="384" height="384" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle">Marlboro Gold</h1>
+                <h2 class="sliderPrice">3.00€</h2>
+                <a href="#product">
+                    <button class="buyButton">Košarica</btton>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/Marlboro Red.png" width="384" height="384" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle">Marlboro Red</h1>
+                <h2 class="sliderPrice">3.50€</h2>
+                <a href="#product">
+                    <button class="buyButton">Košarica</btton>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/IQOS HEETS Bronze Selection.png" width="256" height="256" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle">IQOS HEETS<br>Yellow Selection</h1>
+                <h2 class="sliderPrice">2.80€</h2>
+                <a href="#product">
+                    <button class="buyButton">Košarica</btton>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/BIC J5 Standard.png" width="310" height="310" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle">BIC J5<br>Standard Mini</h1>
+                <h2 class="sliderPrice">1.25€</h2>
+                <a href="#product">
+                    <button class="buyButton">Košarica</btton>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img class="featureIcon" src="./img/besplatnadostava.png" alt="" class="featureImg">
+            <span class="featureTitle">BESPLATNA DOSTAVA</span>
+            <span class="featureDesc">Besplatna dostava na sve adrese!</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/kontakt.jpg" alt="" class="featureImg">
+            <span class="featureTitle">KONTAKT</span>
+            <span class="featureDesc">Kontaktirajte nas putem e-Maila ili našeg info telefona!</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/kuponi.png" alt="" class="featureImg">
+            <span class="featureTitle">KUPONI</span>
+            <span class="featureDesc">Iskoristite promocije!</span>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <img src="./img/Marlboro Gold.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">Marlboro Gold</h1>
+            <h2 class="productPrice">3.00€</h2>
+            <p class="productDesc">Uživajte u izboru kvalitetnih duhanskih proizvoda!</p>
+                <div class="colors">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                </div>
+                <div class="boje">
+                    <div class="boja"></div>
+                    <div class="boja"></div>
+                </div>
+            </div>
+        </div>
+        <button class="productButton">Dodajte u košaricu!</button>
+        <div class="payment">
+        <!--<h1 class="payTitle">Osobne informacije</h1>
+        <label>Ime i prezime</label>
+        <input type="text" placeholder="Neboderko Horvat" class="payInput">
+        <label>Broj telefona</label>
+        <input type="text" placeholder="063456789" class="payInput">
+        <label>Adresa</label>
+        <input type="text" placeholder="Kralja Tomislava 23a" class="payInput">
+        <h1 class="payTitle">Plaćanje</h1>
+        <div class="cardIcons">
+            <img src="./img/visa.png" alt="" width="40" height="40" class="cardIcon">
+            <img src="./img/mastercard.png" alt="" width="40" class="cardIcon">
+        </div>
+        <input type="Lozinka" class="payInput" placeholder="Broj kartice">
+        <div class="cardInfo">
+            <input type="text" placeholder="mm" class="payInput sm">
+            <input type="text" placeholder="yyyy" class="payInput sm">
+            <input type="text" placeholder="cvv" class="payInput sm">
+        </div>-->
+        <!--<div class="cart">
+            <div class="cartItem">
+                <img src="./img/Marlboro Gold.png" width="80" height="80" alt="" class="cartImg">
+                <h1 class="cartTitle">Marlboro Gold</h1>
+                <div class="container">
+                    <input type="number" id="quantityInput">
+                    <span id="result">0</span>
+                    <span class="cartPrice" style="display: none;">3</span>
+                </div>                  
+            </div>
+            <div class="cartItem">
+                <img src="./img/Marlboro Red.png" width="80" height="80" alt="" class="cartImg">
+                <h1 class="cartTitle">Marlboro Red</h1>
+                <h2 class="cartPrice">3.50€</h2>
+            </div>
+            <div class="cartItem">
+                <img src="./img/IQOS HEETS Bronze Selection.png" width="80" height="80" alt="" class="cartImg">
+                <h1 class="cartTitle">IQOS HEETS<br>Bronze Selection</h1>
+                <h2 class="cartPrice">2.80€</h2>
+            </div>
+            <div class="cartItem">
+                <img src="./img/BIC J5 Standard.png" width="80" height="80" alt="" class="cartImg">
+                <h1 class="cartTitle">BIC J5<br>Standard Mini</h1>
+                <h2 class="cartPrice">1.25€</h2>
+            </div>-->
+            <div class="itemContainer">
+                <div class="item">
+                    <img src="./img/Marlboro Gold.png" width="80" height="80" alt="" class="cartImg">
+                    <span class="cartTitle">Marlboro Gold</span>
+                    <input type="number" class="quantityInput">
+                    <span class="result">0</span>
+                    <span class="cartPrice" style="display: none;">3</span>
+                </div>
+                <div class="item">
+                    <img src="./img/Marlboro Red.png" width="80" height="80" alt="" class="cartImg">
+                    <span class="cartTitle">Marlboro Red</span>
+                    <input type="number" class="quantityInput">
+                    <span class="result">0</span>
+                    <span class="cartPrice" style="display: none;">3.5</span>
+                </div>
+                <div class="item">
+                    <img src="./img/IQOS HEETS Bronze Selection.png" width="80" height="80" alt="" class="cartImg">
+                    <span class="cartTitle">IQOS HEETS</span>
+                    <input type="number" class="quantityInput">
+                    <span class="result">0</span>
+                    <span class="cartPrice" style="display: none;">2.8</span>
+                </div>
+                <div class="item">
+                    <img src="./img/BIC J5 Standard.png" width="80" height="80" alt="" class="cartImg">
+                    <span class="cartTitle">BIC J5 Standard Mini</span>
+                    <input type="number" class="quantityInput">
+                    <span class="result">0</span>
+                    <span class="cartPrice" style="display: none;">1.25</span>
+                </div>
+                <button class="payButton">Kupite</button>
+                <div class="total">Total: 0€</div>
+                <span class="close">X</span>
+              </div>              
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Mi smo vaš prvi izbor!</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6J-88LzjmVGPmwxrQbcjfiFA1fiXyJGwl8g&usqp=CAU" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://www.ubervape.co.uk/ekmps/shops/d2f7ba/images/iqos-3-duo-starter-kit-40-heets-promo-colour-brilliant-38972-p.png" alt="" class="galleryImg">
+            <h1 class="galleryTitle">Ponuda najveće kvalitete</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Vaša Lugara :)</h1>
+            <img src="https://cdn.bic.com/media/catalog/product/cache/76e1d882d7460ad7d6c317f717aa4fcd/j/2/j26-l-ast_series_1_.jpg" alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="arrival">
+        <div class="arrivalItem">
+            <img src="./img/ruski-cigare.png" alt="" class="arrivalImg">
+        </div>
+        <div class="arrivalItem">
+            <h3 class="arrivalTitleSm">U DOLASKU</h3>
+            <h1 class="arrivalTitle">Nova ponuda</h1>
+            <h1 class="arrivalTitle">Lugarina preporuka</h1>
+            <a href="#nav">
+                <button class="arrivalButton">PRONAĐITE VAŠ OKUS</button>
+            </a>
+        </div>
+        <div class="arrivalItem">
+            <img src="./img/ZP2006816_01_zippo.png" alt="" class="arrivalImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">O nama</h1>
+                <ul class="fList">
+                    <li class="fListItem">Poduzeće</li>
+                    <li class="fListItem">Kontakt</li>
+                    <li class="fListItem">Karijere</li>
+                    <li class="fListItem">Podružnice</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Korisni linkovi</h1>
+                <ul class="fList">
+                    <li class="fListItem">Podrška</li>
+                    <li class="fListItem">Povrat novca</li>
+                    <li class="fListItem">Često postavljana pitanja</li>
+                    <li class="fListItem">Povratne informacije</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Proizvodi</h1>
+                <ul class="fList">
+                    <li class="fListItem">Marlboro Gold</li>
+                    <li class="fListItem">Marlboro Red</li>
+                    <li class="fListItem">IQOS HEETS</li>
+                    <li class="fListItem">BIC J5</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Prijavi se za e-letak i primaj ekskluzivne ponude</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="tvoj@email.com" class="fInput">
+                    <button class="fButton">Pretplati se!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Pratite nas</h1>
+                <div class="fIcons">
+                    <img src="./img/Facebook_Logo_(2019).png" alt="" class="fIcon">
+                    <img src="./img/Instagram-Icon.png" alt="" class="fIcon">
+                    <img src="./img/free-twitter-logo-icon-2429-thumb.png" alt="" class="fIcon">
+                    <img src="./img/WhatsApp_icon.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">Drago Kulaš & Marko Brekalo. Sva prava pridržana. 2023.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
